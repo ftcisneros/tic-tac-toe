@@ -16,7 +16,7 @@ function GameGrid(props) {
          <Square player={moves[7]} click={() => props.click(7)} />
          <Square player={moves[8]} click={() => props.click(8)} />
       </div>
-   );  
+   );
 }
 
 export default GameGrid;
